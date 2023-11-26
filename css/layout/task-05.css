@@ -1,0 +1,47 @@
+.widget {
+  width: 345px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 100px 0;
+  border-radius: 8px;
+  background: #fff;
+  text-align: center;
+}
+
+.widget p {
+  color: #2e2f42;
+}
+
+.widget span {
+  color: #2e2f42;
+}
+
+.widget button {
+  width: 148px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.widget button:hover,
+.widget button:focus {
+  background-color: #6c8cff;
+}
